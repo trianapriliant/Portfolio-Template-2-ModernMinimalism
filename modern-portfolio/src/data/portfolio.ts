@@ -34,7 +34,7 @@ export const personalInfo = {
   name: "Trian Aprilianto",
   title: "Full Stack Developer & UI/UX Designer",
   bio: "Passionate developer dengan 5+ tahun pengalaman dalam membangun aplikasi web modern. Spesialisasi dalam React, TypeScript, dan desain pengalaman pengguna yang menakjubkan.",
-  email: "alex.santoso@email.com",
+  email: "trianapriliant@email.com",
   phone: "+62 812 3456 7890",
   location: "Jakarta, Indonesia",
   profileImage: "/images/profile.jpg",

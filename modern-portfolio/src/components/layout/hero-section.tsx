@@ -170,7 +170,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2, duration: 1 }}
-          className="absolute left-1/2 transform -translate-x-1/2"
+          className="pt-10 bottom-10 left-1/2 transform -translate-x-1/2"
         >
           <motion.button
             onClick={scrollToNext}
@@ -178,7 +178,7 @@ export function HeroSection() {
             whileTap={{ scale: 0.9 }}
             className="p-2 rounded-full bg-background/20 backdrop-blur-sm border border-border/50 hover:bg-background/30 transition-colors duration-200"
             animate={{
-              y: [0, 10, 0],
+              y: [0, 15, 0],
             }}
             transition={{
               duration: 2,
@@ -186,7 +186,7 @@ export function HeroSection() {
               ease: "easeInOut"
             }}
           >
-            <ArrowDown className="h-6 w-6 text-muted-foreground" />
+            <ArrowDown className="h-5 w-5 text-muted-foreground" />
             <span className="sr-only">Scroll ke bawah</span>
           </motion.button>
         </motion.div>
